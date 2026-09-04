@@ -1,7 +1,3 @@
-I’m reviewing the final HTML in the repository and will answer each question based on the actual page structure and the Git workflow that was used.
-
-Read 
-
 ## 1. Website type and content
 
 The website I created is a personal portfolio website for Joseph Phiri. It is designed as a clean, professional one-page profile that presents who I am, what I do, my skills, projects, experience, and how to contact me.
