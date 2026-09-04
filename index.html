@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfolio website for Joseph Phiri Joseph Phiri" />
+    <meta name="keywords" content="portfolio, personal, web, design, development" />
+    <title> Joseph Phiri | Personal Website</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Main navigation">
+        <a href="#home" title="Home">Home</a>
+        <a href="#about" title="About me">About</a>
+        <a href="#skills" title="Skills">Skills</a>
+        <a href="#projects" title="Projects">Projects</a>
+        <a href="#experience" title="Experience">Experience</a>
+        <a href="#contact" title="Contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section aria-labelledby="intro-heading">
+        <p><strong>Welcome</strong></p>
+        <h1 id="intro-heading">I’m Joseph Phiri</h1>
+        <p>
+          I am a multidisciplinary designer and developer who builds meaningful
+          digital experiences for people, communities, and brands.
+        </p>
+        <a href="#contact" title="Reach out to Joseph Phiri">Let’s Connect</a>
+        <a href="#projects" title="View project work">View My Work</a>
+      </section>
+
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About Me</h2>
+        <article>
+          <p>
+            I enjoy turning ideas into elegant, human-centered products. My work
+            blends visual storytelling, thoughtful systems, and practical problem
+            solving.
+          </p>
+          <p>
+            Over the years, I’ve collaborated with startups, nonprofits, and
+            creative teams to design experiences that feel clear, expressive, and
+            accessible.
+          </p>
+        </article>
+
+        <aside>
+          <blockquote cite="https://example.com/quote">
+            <q>Good design makes complex ideas feel simple.</q>
+          </blockquote>
+        </aside>
+      </section>
+
+      <section id="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills & Expertise</h2>
+
+        <article>
+          <h3>Creative Skills</h3>
+          <ul>
+            <li>Brand Strategy</li>
+            <li>UX Writing</li>
+            <li>Visual Design</li>
+            <li>Content Planning</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Technical Skills</h3>
+          <ol>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Accessibility</li>
+            <li>Research</li>
+          </ol>
+        </article>
+
+        <article>
+          <h3>Core Strengths</h3>
+          <dl>
+            <dt>Communication</dt>
+            <dd>Explaining ideas clearly to teams and clients.</dd>
+            <dt>Leadership</dt>
+            <dd>Guiding projects from concept to launch.</dd>
+            <dt>Problem Solving</dt>
+            <dd>Turning constraints into practical opportunities.</dd>
+          </dl>
+        </article>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Featured Projects</h2>
+
+        <article>
+          <h3>Community Garden Portal</h3>
+          <p>
+            A digital platform that helped local gardeners share schedules,
+            resources, and events in a welcoming interface.
+          </p>
+          <ul>
+            <li>Role: Product Designer</li>
+            <li>Outcome: Increased community participation by 40%</li>
+          </ul>
+          <a href="https://example.com" target="_blank" rel="noreferrer">View Case Study</a>
+        </article>
+
+        <article>
+          <h3>Studio Brand Refresh</h3>
+          <p>
+            A full identity redesign for a growing creative consultancy, including
+            messaging, typography, and digital assets.
+          </p>
+          <p><mark>Featured by local creative network</mark></p>
+        </article>
+
+        <article>
+          <h3>Learning Dashboard</h3>
+          <p>
+            An interactive dashboard for students to track progress and manage
+            learning goals in one place.
+          </p>
+          <p><time datetime="2025-04-15">April 2025</time></p>
+        </article>
+      </section>
+
+      <section id="experience" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Experience</h2>
+
+        <table>
+          <caption>Career timeline</caption>
+          <thead>
+            <tr>
+              <th scope="col">Year</th>
+              <th scope="col">Role</th>
+              <th scope="col">Organization</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">2023 - Present</th>
+              <td>Senior Experience Designer</td>
+              <td>Northstar Studio</td>
+            </tr>
+            <tr>
+              <th scope="row">2020 - 2023</th>
+              <td>UX Designer</td>
+              <td>Brightleaf Lab</td>
+            </tr>
+            <tr>
+              <th scope="row">2018 - 2020</th>
+              <td>Visual Designer</td>
+              <td>Harbor Creative</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="journal-heading">
+        <h2 id="journal-heading">Notes & Interests</h2>
+        <p>
+          I love exploring <abbr title="User Experience">UX</abbr> research,
+          sustainable design, and city culture. I enjoy writing thoughtful essays,
+          documenting travel, and photographing everyday details.
+        </p>
+        <p>
+          <cite>Design is not decoration. It is strategy made visible.</cite>
+        </p>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Send a message</legend>
+
+            <label for="name">Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Your full name"
+              required
+              minlength="2"
+            />
+
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+              required
+            />
+
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic">
+              <option value="project">Project inquiry</option>
+              <option value="collaboration">Collaboration</option>
+              <option value="speaking">Speaking</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="40"
+              placeholder="Tell me a little about your idea..."
+              required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+          </fieldset>
+        </form>
+
+        <address>
+          Email: <a href="mailto:Joseph Phiri@example.com">Joseph Phiri@example.com</a><br />
+          Phone: <a href="tel:+1234567890">+1 (234) 567-890</a><br />
+          Location: Portland, OR
+        </address>
+      </section>
+    </main>
+
+    <footer>
+      <nav aria-label="Footer navigation">
+        <a href="#home">Top</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p><small>© 2026 Joseph Phiri Joseph Phiri. Built with semantic HTML.</small></p>
+    </footer>
+  </body>
+</html>
